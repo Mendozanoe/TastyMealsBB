@@ -1,0 +1,70 @@
+.img-logo { 
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1000px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+  animation: zoom 5s infinite;
+}
+
+@keyframes zoom {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.container-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 2rem 5px 4px 5px;
+  font-size: large;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+  margin-right: 3rem;
+}
+
+.flex-1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.img-logo,
+.menu:hover {
+  cursor: pointer;
+}
+
+a.navegation {
+  color: black;
+  text-decoration: none;
+}
+
+/* Estilos para pantallas menores de 970px */
+@media (max-width: 970px) {
+  .menu {
+      gap: 1rem;
+  }
+}
+
+/* Estilos para pantallas menores de 640px */
+@media (max-width: 550px) {
+  .btn-ghost {
+      display: none;
+  }
+  
+
+}
+
+/* Estilos para pantallas menores de 550px */
