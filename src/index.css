@@ -33,7 +33,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 550px) {
+/* @media (max-width: 550px) {
 
   html,
   body {
@@ -46,5 +46,19 @@ body {
         overflow: hidden;
       }
     }
+  }
+} */
+@media (max-width: 550px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .container-navbar {
+    overflow: hidden;
+  }
+
+  .mobile-menu {
+    display: block; /* Asegúrate de que el menú hamburguesa sea visible en móviles */
   }
 }
