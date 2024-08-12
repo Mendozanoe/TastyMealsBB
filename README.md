@@ -2,7 +2,7 @@
 
 ## Descripción
 
-**Tasty Meals** es una landing page diseñada para mostrar los productos de una empresa. La página está creada con React y Vite, y estilada con CSS. El objetivo principal es proporcionar una vista atractiva y funcional de los productos que ofrece la empresa.
+**Tasty Meals** es una landing page diseñada para mostrar los productos de un emprendimiento familiar. La página está creada con React y Vite, y estilada con CSS. El objetivo principal es proporcionar una vista atractiva y funcional de los productos que ofrece y el llamado a la acción mediante whatsapp.
 
 ## Tecnologías
 
