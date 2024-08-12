@@ -1,15 +1,15 @@
 import React from 'react'
 import "../Home/home.css"
 import BoxImg from '../../components/BoxImg/BoxImg'
-import waffles from "../../assets/waffle1.jpg"
-import tortilla from "../../assets/tortillaProte.jpg"
-import donita from "../../assets/donitasColores.jpg"
+import waffles from "../../assets/waffle1.webp"
+import tortilla from "../../assets/tortillaProte.webp"
+import donita from "../../assets/donitasColores.webp"
 import Galery from '../../components/Galery/Galery'
 import FormContact from '../../components/Form/FormContact'
 import Map from '../../components/Map/Map'
 import FloatingWhatsAppButton from '../../components/WhatsApp/FloatingWhatsAppButton'
 import SliderText from '../../components/SliderTxt/SliderText'
-import wafflePng from "../../assets/wafflepng.png"
+import wafflePng from "../../assets/wafflepng.webp"
 
 
 
@@ -36,7 +36,7 @@ const Home = () => {
           </span>
 
         </article>
-        <img className='img-waffle' src={wafflePng} alt="waffle" />
+        <img className='img-waffle' loading="lazy" src={wafflePng} alt="waffle" />
 
       </div>
 
@@ -98,7 +98,7 @@ const Home = () => {
         </section>
         <section className='map'>
           <span className='title-contact' >Nuestra Dirección</span>
-         
+
           <Map />
         </section>
 

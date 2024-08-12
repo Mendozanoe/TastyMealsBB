@@ -4,7 +4,7 @@ import './image.css';
 const Image = ({ url, size }) => {
   return (
     <div className={`image ${size}`}>
-      <img src={url} alt="Imagen" />
+      <img src={url} loading="lazy" alt="Imagen" />
     </div>
   );
 };

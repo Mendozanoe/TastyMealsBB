@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import "../Menu/hamburger.css"; // Asegúrate de que este archivo exista
+import "../Menu/hamburger.css";
 
 const HamburgerMenu = ({ className, icon, onClick }) => {
 

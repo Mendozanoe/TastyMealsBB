@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import img from '../../assets/logo-btn.jpeg';
+import img from '../../assets/logo-btn.webp';
 import HamburgerMenu from '../Menu/HamburgerMenu';
 import '../NavBar/navbar.css';
 
@@ -17,15 +17,15 @@ const NavBar = () => {
   return (
     <div className="container-navbar">
       <div className="flex-1">
-        <img className='img-logo' src={img} alt="Logo" />
+        <img className='img-logo'  loading="lazy"  src={img} alt="Logo" />
         <a className="btn-ghost">Bocados & Bebidas</a>
       </div>
       <div className="flex-none">
         {isMobile ? (
           <>
             <HamburgerMenu
-              className={`hamburger-menu ${isMenuOpen ? 'active' : ''}`} // Agregar clase activa para estilos
-              icon={<FontAwesomeIcon icon={faBars} />} // Pasa el ícono como componente
+              className={`hamburger-menu ${isMenuOpen ? 'active' : ''}`} 
+              icon={<FontAwesomeIcon icon={faBars} />} 
               onClick={toggleMenu}
             />
             {isMenuOpen && (

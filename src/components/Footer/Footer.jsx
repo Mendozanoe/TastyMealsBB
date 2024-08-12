@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../assets/logo-btn.jpeg"
+import logo from "../../assets/logo-btn.webp"
 import "../Footer/footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='footer-container' >
             <h2 className='follow'>Siguenos en nuestras redes </h2>
             <div className='container-footer'>
-                <img className="logo-footer" src={logo} alt="logo" />
+                <img className="logo-footer" loading="lazy" src={logo} alt="logo" />
 
                 <a href="https://www.facebook.com/tastymeals296?mibextid=ZbWKwL" target="_blank" > <FontAwesomeIcon className="icon1" icon={faSquareFacebook} size="3x" /></a>
                 <a href="https://www.instagram.com/tasty.296?igsh=MWttMWp1d3lnMW9jMQ==" target="_blank" ><FontAwesomeIcon className="icon1" icon={faInstagram} size="3x" /></a>

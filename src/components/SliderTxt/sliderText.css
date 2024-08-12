@@ -1,14 +1,14 @@
-/* sliderPortada.css */
+
 
 .slider {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 200px; /* Ajusta según tus necesidades */
+    height: 200px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);/* Fondo oscuro para resaltar las luces */
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   .slides {
@@ -19,8 +19,8 @@
   .slide-text {
     min-width: 100%;
     text-align: center;
-    font-size: 2rem; /* Tamaño de la fuente */
-    color: #fff; /* Color del texto */
+    font-size: 2rem; 
+    color: #fff; 
     animation: neon 1.5s ease-in-out infinite alternate;
   }
   
