@@ -19,53 +19,63 @@ const Home = () => {
 
 
 
+
+
+
   return (
     <>
       <div className='box-title' id='home'>
         <article id='nosotros' className='container-title' >
-          <h2 className='tt'>En Tasty Meals B&B</h2>
-          <span  className='welcome'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad animi, aspernatur velit saepe consequatur explicabo sed ducimus. Atque, commodi illum vitae, quibusdam nulla delectus ratione consequatur autem ullam architecto pariatur?
+          <h2 className='tt'>Descubre la Autenticidad Artesanal
+
+          </h2>
+          <span className='welcome'>
+            En Tasty Meals B&B, cada producto es una obra maestra artesanal. Disfruta de nuestros clásicos waffles y donuts, o elige nuestras tortillas proteicas con frutas frescas para una opción saludable.
+
+            Visítanos o haz tu pedido con un clic. ¡Sabor y calidad a tu alcance!
           </span>
-         
+
         </article>
-         <img className='img-waffle' src={wafflePng} alt="waffle" />
+        <img className='img-waffle' src={wafflePng} alt="waffle" />
 
       </div>
 
       <div className='container-slider'>
-      
-        <SliderText/>
+
+        <SliderText />
       </div>
-      <div  id='menu'className='title-menu'>
+      <div id='menu' className='title-menu'>
         <span className='title-title' >Algo de lo que vas a degustar</span>
       </div>
-      <div id='menu'  className='container-3boxes'>
-      
+      <div id='menu' className='container-3boxes'>
+
 
         <BoxImg className="box-waffle"
+
           title="Waffles Tasty"
           img={waffles}
           text="Hacer pedido"
           description="Los waffles más deliciosos, 100% caseros y hechos al momento, 
-     con sabores especiales como ganache de chocolate, relleno de frutas y crema chantilly."
+     con sabores especiales como ganache de chocolate, relleno de frutas y crema chantilly. 
+     Una excelente opcion para compartir con amigos "
 
 
         />
         <BoxImg className="box-waffle"
           title="Tortilla Protéica"
           img={tortilla}
-           text="Hacer pedido"
-          description="Los waffles más deliciosos, 100% caseros y hechos al momento, 
-     con sabores especiales como ganache de chocolate, relleno de frutas y crema chantilly."
+          text="Hacer pedido"
+          description="Nuestra tortilla proteíca una de las mejores opciones cuando queres disfrutar 
+          de algo rico y cuidar tu dieta a la vez, echa de avena, banana, huevo , recubierto de exquisita pasta de mani y frutas "
 
 
         />
         <BoxImg className="box-waffle"
           title="Mini Donuts"
           img={donita}
-           text="Hacer pedido"
-          description="Los waffles más deliciosos, 100% caseros y hechos al momento, 
-     con sabores especiales como ganache de chocolate, relleno de frutas y crema chantilly."
+          text="Hacer pedido"
+          description="Las mini donuts! realizadas con masa casera y recubiertas en chocolate y variedad de coverturas de colores, 
+          sabrosas y divertidas podes acompañarlas con jugos naturales o una infusion caliente."
 
 
         />
@@ -73,11 +83,9 @@ const Home = () => {
       </div>
       <div id='eventos' className='my-galery'>
         <section className='container-photos'>
-          <h1 className='title-photos'>Compartiendo eventos especiales</h1>
-          <p className='description-photos'>Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Corporis eum modi aspernatur distinctio molestiae iure
-            quidem excepturi pariatur vitae. Quam, voluptate non labore dignissimos
-            ea officiis distinctio qui eos officia?</p>
+          <h1 className='title-photos'>Crea Recuerdos Inolvidables</h1>
+          <p className='description-photos'>Los buenos momentos quedan grabados para siempre. En Tasty Meals B&B, nos especializamos en hacer que cada reunión con amigos o familia sea especial,
+            ofreciendo sabores excepcionales que disfrutas en cada bocado.</p>
           <Galery />
         </section>
 
@@ -90,6 +98,7 @@ const Home = () => {
         </section>
         <section className='map'>
           <span className='title-contact' >Nuestra Dirección</span>
+         
           <Map />
         </section>
 

@@ -36,3 +36,4 @@ const SliderText = () => {
 }
 
 export default SliderText;
+

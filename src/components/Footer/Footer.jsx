@@ -4,12 +4,11 @@ import "../Footer/footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram, faTiktok, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import Map from '../Map/Map';
 const Footer = () => {
     return (
 
         <div className='footer-container' >
-            <h2 className='follow'>Seguinos en nuestras redes </h2>
+            <h2 className='follow'>Siguenos en nuestras redes </h2>
             <div className='container-footer'>
                 <img className="logo-footer" src={logo} alt="logo" />
 

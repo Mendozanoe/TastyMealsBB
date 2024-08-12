@@ -1,7 +1,5 @@
-// Image.js
-
 import React from 'react';
-import './image.css'; // Archivo CSS para estilos
+import './image.css'; 
 
 const Image = ({ url, size }) => {
   return (

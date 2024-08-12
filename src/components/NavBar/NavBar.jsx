@@ -24,7 +24,7 @@ const NavBar = () => {
         {isMobile ? (
           <>
             <HamburgerMenu
-              className="mobile-menu"
+              className={`hamburger-menu ${isMenuOpen ? 'active' : ''}`} // Agregar clase activa para estilos
               icon={<FontAwesomeIcon icon={faBars} />} // Pasa el ícono como componente
               onClick={toggleMenu}
             />

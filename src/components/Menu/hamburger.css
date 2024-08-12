@@ -1,9 +1,14 @@
-.hamburger-menu {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+/* Asegúrate de que el menú hamburguesa se muestre solo en pantallas pequeñas */
+.mobile-menu {
+  display: none; /* Ocultar por defecto */
+}
 
+@media (max-width: 550px) {
+  .mobile-menu {
+    display: block; /* Mostrar el menú hamburguesa en pantallas pequeñas */
   }
-  .mobile-menu{
-    display: none;
+
+  .menu {
+    display: none; /* Ocultar el menú normal en pantallas pequeñas */
   }
+}

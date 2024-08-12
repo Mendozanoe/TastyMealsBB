@@ -24,6 +24,7 @@
 }
 
 .description-photos {
+    font-size: larger;
     display: flex;
     width: 85%;
     justify-content: center;
@@ -117,7 +118,7 @@
 
     .welcome {
         font-size: 15px;
-        width: 15rem;
+        width: 20rem;
         height: 10rem;
        
     }
@@ -160,6 +161,7 @@
     .tt{
         font-size: larger;
     }
+    
 
     .title-title {
         font-size: 20px;
@@ -171,6 +173,7 @@
 
    .description-photos{
     width: auto;
+    font-size: medium;
    }
     
 }

@@ -5,15 +5,13 @@ import Button from '../Buttons/Button';
 
 
 const FormContact = () => {
-  //Aqui declaro un estado inicial del fromulario, y como se va a actualizar
   const [formData, setFormData] = useState(
     {
       name: "",
       email: "",
       message: ""
     });
-    //con esta funcion se actualiza el estado de formData con los datos que usuario escribe
-
+   
     const handleChange=(e)=>{
       const{name,value}=e.target;
       setFormData({

@@ -68,3 +68,48 @@ a.navegation {
 }
 
 /* Estilos para pantallas menores de 550px */
+/* navbar.css */
+
+/* Estilo para el menú hamburguesa */
+.hamburger-menu {
+  display: none; /* Ocultar por defecto en pantallas grandes */
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .hamburger-menu {
+    display: block; /* Mostrar menú hamburguesa en pantallas pequeñas */
+  }
+
+  .menu {
+    display: none; /* Ocultar menú normal en pantallas pequeñas */
+  }
+
+  .menu.mobile-menu {
+    display: flex; /* Mostrar menú desplegable cuando está abierto */
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; /* Posicionar el menú desplegable */
+    top: 60px; /* Ajusta según el tamaño de tu barra de navegación */
+    right: 0;
+    background: #fff; /* Ajusta el color de fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra */
+  }
+
+  .menu.mobile-menu li {
+    padding: 10px; /* Espaciado entre elementos del menú */
+  }
+
+  .menu.mobile-menu a {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú */
+  }
+}
+
+/* Opcional: clase activa para el menú hamburguesa */
+.hamburger-menu.active {
+  background-color: red;
+  /* Estilos cuando el menú hamburguesa está activo */
+}

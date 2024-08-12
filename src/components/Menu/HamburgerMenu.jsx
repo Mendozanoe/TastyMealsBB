@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "../Menu/hamburger.css"; // Asegúrate de que este archivo exista
 
 const HamburgerMenu = ({ className, icon, onClick }) => {
+
   return (
     <div className={`hamburger-menu ${className}`} onClick={onClick}>
       <FontAwesomeIcon icon={icon} size="2x" />
